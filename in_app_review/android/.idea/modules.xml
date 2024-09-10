@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/in_app_review.iml" filepath="$PROJECT_DIR$/.idea/modules/in_app_review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/in_app_review.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/in_app_review.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/in_app_review.main.iml" filepath="$PROJECT_DIR$/.idea/modules/in_app_review.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/in_app_review.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/in_app_review.unitTest.iml" />
     </modules>
   </component>
 </project>
