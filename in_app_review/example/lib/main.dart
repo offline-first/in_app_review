@@ -8,10 +8,10 @@ void main() => runApp(const InAppReviewExampleApp());
 enum Availability { loading, available, unavailable }
 
 class InAppReviewExampleApp extends StatefulWidget {
-  const InAppReviewExampleApp({Key? key}) : super(key: key);
+  const InAppReviewExampleApp({super.key});
 
   @override
-  _InAppReviewExampleAppState createState() => _InAppReviewExampleAppState();
+  State createState() => _InAppReviewExampleAppState();
 }
 
 class _InAppReviewExampleAppState extends State<InAppReviewExampleApp> {

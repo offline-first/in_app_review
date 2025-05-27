@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'com.android.tools.build:gradle:8.7.3'
     }
 }
 
@@ -22,10 +22,11 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 33
+    namespace 'dev.britannio.in_app_review'
+    compileSdk 35
 
     defaultConfig {
-        minSdkVersion 24
+        minSdkVersion 16
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -33,10 +34,10 @@ android {
 
     dependencies {
         // Release notes: https://developer.android.com/reference/com/google/android/play/core/release-notes
-        implementation 'com.google.android.play:review:2.0.1'
+        implementation 'com.google.android.play:review:2.0.2'
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
     }
 }
